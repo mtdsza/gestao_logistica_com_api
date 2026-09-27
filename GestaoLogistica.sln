@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gestao_logistica_api", "gestao_logistica_api", "{0CABBAFA-7A44-4641-89EB-4074AD4FB562}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B945EF3B-A0CD-4DC3-8B92-41943D28A5C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Domain", "gestao_logistica_api\src\GestaoLogistica.Domain\GestaoLogistica.Domain.csproj", "{277F44DF-941C-4E84-9776-C29DCC5FDF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Application", "gestao_logistica_api\src\GestaoLogistica.Application\GestaoLogistica.Application.csproj", "{B9C6814A-41FB-4376-B797-27ED173D8EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Infrastructure", "gestao_logistica_api\src\GestaoLogistica.Infrastructure\GestaoLogistica.Infrastructure.csproj", "{1E22AF99-B8F5-4469-848B-EF6907B76D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Api", "gestao_logistica_api\src\GestaoLogistica.Api\GestaoLogistica.Api.csproj", "{896CFCAF-0E80-4459-A977-DA5FFAB92EA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AE1A9B1F-45E7-4CF6-B6A2-97A75EA108D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Tests", "gestao_logistica_api\tests\GestaoLogistica.Tests\GestaoLogistica.Tests.csproj", "{5CFECB29-CC2C-4F8B-9831-C890CD078458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{277F44DF-941C-4E84-9776-C29DCC5FDF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277F44DF-941C-4E84-9776-C29DCC5FDF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277F44DF-941C-4E84-9776-C29DCC5FDF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277F44DF-941C-4E84-9776-C29DCC5FDF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C6814A-41FB-4376-B797-27ED173D8EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C6814A-41FB-4376-B797-27ED173D8EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C6814A-41FB-4376-B797-27ED173D8EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C6814A-41FB-4376-B797-27ED173D8EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E22AF99-B8F5-4469-848B-EF6907B76D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E22AF99-B8F5-4469-848B-EF6907B76D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E22AF99-B8F5-4469-848B-EF6907B76D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E22AF99-B8F5-4469-848B-EF6907B76D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896CFCAF-0E80-4459-A977-DA5FFAB92EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896CFCAF-0E80-4459-A977-DA5FFAB92EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896CFCAF-0E80-4459-A977-DA5FFAB92EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896CFCAF-0E80-4459-A977-DA5FFAB92EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFECB29-CC2C-4F8B-9831-C890CD078458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFECB29-CC2C-4F8B-9831-C890CD078458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFECB29-CC2C-4F8B-9831-C890CD078458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFECB29-CC2C-4F8B-9831-C890CD078458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B945EF3B-A0CD-4DC3-8B92-41943D28A5C5} = {0CABBAFA-7A44-4641-89EB-4074AD4FB562}
+		{277F44DF-941C-4E84-9776-C29DCC5FDF38} = {B945EF3B-A0CD-4DC3-8B92-41943D28A5C5}
+		{B9C6814A-41FB-4376-B797-27ED173D8EC1} = {B945EF3B-A0CD-4DC3-8B92-41943D28A5C5}
+		{1E22AF99-B8F5-4469-848B-EF6907B76D92} = {B945EF3B-A0CD-4DC3-8B92-41943D28A5C5}
+		{896CFCAF-0E80-4459-A977-DA5FFAB92EA7} = {B945EF3B-A0CD-4DC3-8B92-41943D28A5C5}
+		{AE1A9B1F-45E7-4CF6-B6A2-97A75EA108D3} = {0CABBAFA-7A44-4641-89EB-4074AD4FB562}
+		{5CFECB29-CC2C-4F8B-9831-C890CD078458} = {AE1A9B1F-45E7-4CF6-B6A2-97A75EA108D3}
+	EndGlobalSection
+EndGlobal

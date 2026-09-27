@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6395287-1281-4E55-A66A-BA42778826AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Domain", "src\GestaoLogistica.Domain\GestaoLogistica.Domain.csproj", "{0F88BEC4-5838-4C13-941B-B1D5A76EA192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Application", "src\GestaoLogistica.Application\GestaoLogistica.Application.csproj", "{7840153A-2982-41F1-93F5-0E98CA121260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Infrastructure", "src\GestaoLogistica.Infrastructure\GestaoLogistica.Infrastructure.csproj", "{273E6119-4EFB-422E-95AE-3B84128A024A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Api", "src\GestaoLogistica.Api\GestaoLogistica.Api.csproj", "{3A54C2D3-3687-4403-96E6-63A8750DC1EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6B8EC50E-BFED-46D5-8DF0-EB816AE7D662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLogistica.Tests", "tests\GestaoLogistica.Tests\GestaoLogistica.Tests.csproj", "{0153EA25-09F1-4EE1-A3AC-0CF275427AFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F88BEC4-5838-4C13-941B-B1D5A76EA192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F88BEC4-5838-4C13-941B-B1D5A76EA192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F88BEC4-5838-4C13-941B-B1D5A76EA192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F88BEC4-5838-4C13-941B-B1D5A76EA192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7840153A-2982-41F1-93F5-0E98CA121260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7840153A-2982-41F1-93F5-0E98CA121260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7840153A-2982-41F1-93F5-0E98CA121260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7840153A-2982-41F1-93F5-0E98CA121260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273E6119-4EFB-422E-95AE-3B84128A024A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273E6119-4EFB-422E-95AE-3B84128A024A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273E6119-4EFB-422E-95AE-3B84128A024A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273E6119-4EFB-422E-95AE-3B84128A024A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A54C2D3-3687-4403-96E6-63A8750DC1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A54C2D3-3687-4403-96E6-63A8750DC1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A54C2D3-3687-4403-96E6-63A8750DC1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A54C2D3-3687-4403-96E6-63A8750DC1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0153EA25-09F1-4EE1-A3AC-0CF275427AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0153EA25-09F1-4EE1-A3AC-0CF275427AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0153EA25-09F1-4EE1-A3AC-0CF275427AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0153EA25-09F1-4EE1-A3AC-0CF275427AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F88BEC4-5838-4C13-941B-B1D5A76EA192} = {F6395287-1281-4E55-A66A-BA42778826AF}
+		{7840153A-2982-41F1-93F5-0E98CA121260} = {F6395287-1281-4E55-A66A-BA42778826AF}
+		{273E6119-4EFB-422E-95AE-3B84128A024A} = {F6395287-1281-4E55-A66A-BA42778826AF}
+		{3A54C2D3-3687-4403-96E6-63A8750DC1EC} = {F6395287-1281-4E55-A66A-BA42778826AF}
+		{0153EA25-09F1-4EE1-A3AC-0CF275427AFD} = {6B8EC50E-BFED-46D5-8DF0-EB816AE7D662}
+	EndGlobalSection
+EndGlobal
