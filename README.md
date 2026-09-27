@@ -1,8 +1,8 @@
 # Trabalho Prático: Sistema de Gestão Logística – API em ASP.NET Core & Flutter
 
 **Disciplina:** Programação para Dispositivos Móveis II  
-**Curso:** Gestão da Tecnologia da Informação
-**Ano/Período:** 2026 – 6o Período
+**Curso:** Gestão da Tecnologia da Informação  
+**Ano/Período:** 2026 – 6o Período  
 **Arquitetura:** Cliente-Servidor com API RESTful em ASP.NET Core e Aplicativo Flutter  
 
 ---
